@@ -15,18 +15,18 @@
 
     <script>
         function udpateData() {
-            snapMVCAjax("updateData/27", "POST", {
+            snapMVCAjax("./updateData/27", "POST", {
                 title: 'Title Changed',
                 description: 'Plan Description'
             });
         }
 
-        snapMVCAjax("methodToCall/123/456", "POST")
+        snapMVCAjax("./methodToCall/123/456", "POST")
             .then(data => {
                 console.log(data);
             });
 
-        snapMVCAjax("method2ToCall/ABC", "POST", {
+        snapMVCAjax("./method2ToCall/ABC", "POST", {
                 extraParam1: ['A', 'B'],
                 extraParam2: 123
             })
@@ -34,7 +34,7 @@
                 console.log(data);
             });
 
-        snapMVCAjax("methodToCall/123/456", "GET")
+        snapMVCAjax("./methodToCall/123/456", "GET")
             .then(data => {
                 console.log(data);
             });

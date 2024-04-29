@@ -1,0 +1,30 @@
+/* Main Style of Application */
+
+:root {
+  /* Colors */
+  --color1-1: #c21d03;
+  --color1-2: #fd5732;
+  --color1-2: #ffb787;
+  --color2-1: #393939;
+  --color3-1: #bebebe;
+  --color4-1: #fbfbfb;
+  /* Font Size */
+  --heading: 3rem;
+  --sub-heading: 2rem;
+  --normal-text: 1rem;
+  --font-size-1: 0.9rem;
+
+  /* Spacing */
+  --spacing-1: 10px;
+  --spacing-2: 20px;
+  --spacing-3: 30px;
+  --spacing-4: 40px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+/* Further would be different according to application */

@@ -10,8 +10,6 @@
     public function render()
     {
         include_once('Templates/index/index_template.php');
-
-        echo $this->getPlans('assignment')[0]['p_title'];
     }
 
     public function callMethod($param)
